@@ -1,38 +1,46 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.topo{
+
+.topo {
     width: 100%;
     height: 3.3125em;
-    background-color: azure;
 }
-.content{
+
+.content {
     width: 95%;
     height: 100%;
     max-width: 75em;
     margin: auto;
-    background-color: #ccc;
-}
-.flex-center-bt{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.topo img{
-    max-width: 21.18em;
 
+.content input {
+    width: 215px;
+    height: 28px;
+
+    border-color: #dcdcdc;
+    border-style: solid;
+    border-radius: 2px;
+
+    background: #FAFAFA;
 }
-/* .menu{
-    width: 100%;
-    max-width: 50em;
-    display: flex;
-}
-.menu ul{
+
+.menu {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.menu a{
-    color:#fff;
-    text-decoration: none;
-    padding: 0.9em 0.5em;
-} */
+
+.menu li {
+    margin: 0 5px;
+}
+
+.menu li a img {
+    max-width: 21.18em;
+}
